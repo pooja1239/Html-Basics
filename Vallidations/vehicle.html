@@ -1,0 +1,18 @@
+
+<html>
+    <head>
+        <title>KA - Vehicle Number Validation</title>
+    </head>
+    <body>
+        <h4>Collection of Fine For Traffic Violation</h4>
+        <form action="./collection">
+            <label >Mobile Number:</label>
+            <input type="text" required pattern="[6-9][0-9]{9}"/> <br>
+
+            <label>Vehicle Number:</label>
+            <input type="text" required pattern="^KA[-\s]?\d{2}[-\s]?[A-Z]{1,2}[-\s]?\d{1,4}$"/>  <br>
+
+            <input type="submit" value="Verify Challan">
+        </form>
+    </body>
+</html>
